@@ -1402,29 +1402,23 @@
                  "class":"",
                  "height":128,
                  "id":50,
+                 "name":"InfoRoom2",
+                 "rotation":0,
+                 "visible":true,
+                 "width":158,
+                 "x":1678,
+                 "y":646
+                }, 
+                {
+                 "class":"",
+                 "height":128,
+                 "id":53,
                  "name":"InfoRoom1",
                  "rotation":0,
                  "visible":true,
                  "width":158,
-                 "x":1662,
-                 "y":348
-                }, 
-                {
-                 "class":"area",
-                 "height":104.667,
-                 "id":52,
-                 "name":"WebSite",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/wikipedia.com"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":72,
-                 "x":1600,
-                 "y":653.6665
+                 "x":1675,
+                 "y":342
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1544,7 +1538,7 @@
          "y":0
         }],
  "nextlayerid":56,
- "nextobjectid":53,
+ "nextobjectid":54,
  "orientation":"orthogonal",
  "properties":[
         {
