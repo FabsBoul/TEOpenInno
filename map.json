@@ -1175,7 +1175,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"2023-Innovation-Bootcamp-teaser_sstfr.mp4"
+                         "value":"BootCampIntro.mp4"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1192,7 +1192,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/totalworkplace.sharepoint.com\/sites\/dinn-ms\/SitePages\/fr\/Welcome.aspx"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1226,7 +1226,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/stationtetvous.totalenergies.fr\/fr"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1305,7 +1305,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"Atelier Open Innovation Interne-Bootcamp.pdf"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1339,7 +1339,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/totalenergies-jeu-stationtetvous.civitimeapp.com\/"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1402,7 +1402,7 @@
                  "class":"",
                  "height":128,
                  "id":50,
-                 "name":"InfoRoom2",
+                 "name":"InfoRoom3",
                  "rotation":0,
                  "visible":true,
                  "width":158,
@@ -1419,6 +1419,50 @@
                  "width":158,
                  "x":1675,
                  "y":342
+                }, 
+                {
+                 "class":"",
+                 "height":128,
+                 "id":54,
+                 "name":"InfoRoom5",
+                 "rotation":0,
+                 "visible":true,
+                 "width":158,
+                 "x":1687.66666666667,
+                 "y":924
+                }, 
+                {
+                 "class":"",
+                 "height":128,
+                 "id":55,
+                 "name":"InfoRoom2",
+                 "rotation":0,
+                 "visible":true,
+                 "width":158,
+                 "x":2026.33333333333,
+                 "y":345.333333333333
+                }, 
+                {
+                 "class":"",
+                 "height":128,
+                 "id":56,
+                 "name":"InfoRoom4",
+                 "rotation":0,
+                 "visible":true,
+                 "width":158,
+                 "x":2038.33333333333,
+                 "y":641.333333333333
+                }, 
+                {
+                 "class":"",
+                 "height":128,
+                 "id":57,
+                 "name":"InfoRoom6",
+                 "rotation":0,
+                 "visible":true,
+                 "width":158,
+                 "x":2038.33333333333,
+                 "y":914.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1538,7 +1582,7 @@
          "y":0
         }],
  "nextlayerid":56,
- "nextobjectid":54,
+ "nextobjectid":58,
  "orientation":"orthogonal",
  "properties":[
         {
