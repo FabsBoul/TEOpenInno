@@ -41,6 +41,7 @@ WA.onInit().then(() => {
     })
     WA.room.onLeaveLayer('InfoRoom6').subscribe(closePopup)
 
+    const coWebsite = await WA.nav.openCoWebSite('https://stationtetvous.totalenergies.fr/fr');
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
