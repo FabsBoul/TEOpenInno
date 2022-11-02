@@ -1858,13 +1858,13 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/totalworkplace.sharepoint.com\/sites\/dinn-ms\/SitePages\/fr\/Welcome.aspx "
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":238,
-                 "x":2286,
-                 "y":964.666666666667
+                 "width":111.333333333333,
+                 "x":2416.66666666667,
+                 "y":1148.66666666667
                 }, 
                 {
                  "class":"area",
@@ -1885,14 +1885,14 @@
                 }, 
                 {
                  "class":"area",
-                 "height":107.999666666667,
+                 "height":275.999666666667,
                  "id":25,
                  "name":"WebSite",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/totalenergies-jeu-stationtetvous.civitimeapp.com\/"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1937,7 +1937,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.wikipedia.com"
+                         "value":""
                         }],
                  "rotation":0,
                  "visible":true,
@@ -2012,40 +2012,6 @@
                  "width":240.667,
                  "x":2279.6665,
                  "y":497.667
-                }, 
-                {
-                 "class":"area",
-                 "height":108,
-                 "id":48,
-                 "name":"WebSite",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":""
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":238,
-                 "x":2285,
-                 "y":818
-                }, 
-                {
-                 "class":"area",
-                 "height":97.3333,
-                 "id":49,
-                 "name":"WebSite",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":""
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":238,
-                 "x":2287,
-                 "y":1147.33335
                 }, 
                 {
                  "class":"",
@@ -2144,8 +2110,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":58.6667,
-                 "x":1331.99998333333,
-                 "y":763.33315
+                 "x":1311.99998333333,
+                 "y":773.999816666667
                 }],
          "opacity":1,
          "type":"objectgroup",
