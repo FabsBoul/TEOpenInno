@@ -28,6 +28,7 @@ WA.onInit().then(() => {
 
     WA.room.onEnterLayer('InfoRoom4').subscribe(() => {
         currentPopup = WA.ui.openPopup("InfoRoom4","Bienvenue dans la salle -STATIONT&VOUS- où 2 indices sont à trouver. Rapprochez-vous de Marc et son chien Timon pour plus d’informations !" ,[]);
+        WA.nav.openTab('https://stationtetvous.totalenergies.fr/fr');
     })
     WA.room.onLeaveLayer('InfoRoom4').subscribe(closePopup)
 
@@ -41,7 +42,7 @@ WA.onInit().then(() => {
     })
     WA.room.onLeaveLayer('InfoRoom6').subscribe(closePopup)
 
-    WA.nav.openTab('https://stationtetvous.totalenergies.fr/fr');
+    
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
