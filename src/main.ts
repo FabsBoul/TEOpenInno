@@ -28,7 +28,7 @@ WA.onInit().then(() => {
 
     WA.room.onEnterLayer('InfoRoom4').subscribe(() => {
         currentPopup = WA.ui.openPopup("InfoRoom4","Bienvenue dans la salle -STATIONT&VOUS- où 2 indices sont à trouver. Rapprochez-vous de Marc et son chien Timon pour plus d’informations !" ,[]);
-        WA.nav.openTab('https://stationtetvous.totalenergies.fr/fr');
+        
     })
     WA.room.onLeaveLayer('InfoRoom4').subscribe(closePopup)
 
@@ -41,6 +41,10 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("InfoRoom6","Bienvenue dans la salle -KEEPINTOUCH- où vous avez à trouver 1 indice. Rapprochez-vous de Sonia pour plus d’informations !" ,[]);
     })
     WA.room.onLeaveLayer('InfoRoom6').subscribe(closePopup)
+
+    WA.room.onEnterLayer('stationetvous').subscribe(() => {
+        WA.nav.openTab('https://stationtetvous.totalenergies.fr/fr');
+    })
 
     
 
