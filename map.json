@@ -1894,7 +1894,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/stationtetvous.totalenergies.fr\/fr"
                         }],
                  "rotation":0,
                  "visible":true,
