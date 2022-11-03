@@ -2080,7 +2080,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/totalworkplace.sharepoint.com\/sites\/dinn-ms\/SitePages\/fr\/Welcome.aspx "
+                         "value":"https:\/\/totalworkplace.sharepoint.com\/sites\/dinn-ms\/SitePages\/fr\/Home.aspx"
                         }],
                  "rotation":0,
                  "visible":true,
