@@ -33,7 +33,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('InfoRoom4').subscribe(closePopup)
 
     WA.room.onEnterLayer('InfoRoom5').subscribe(() => {
-        currentPopup = WA.ui.openPopup("InfoRoom5","Ici, pas d’indice à trouver. Constituez une équipe, testez vos connaissances sur l’environnement.  Donnez le meilleur de vous-même dans ce jeu et repartez (peut-être) avec un des cadeaux ! Seules les deux premières équipes gagnent. A vous de jouer :)" ,[]);
+        currentPopup = WA.ui.openPopup("InfoRoom5","Ici, pas d’indice à trouver. Constituez une équipe, testez vos connaissances sur l’environnement.  Donnez le meilleur de vous-même dans ce jeu et repartez (peut-être) avec un des cadeaux. Seules les deux premières équipes gagnent: à vous de jouer!" ,[]);
     })
     WA.room.onLeaveLayer('InfoRoom5').subscribe(closePopup)
 
@@ -41,6 +41,17 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("InfoRoom6","Bienvenue dans la salle -KEEPINTOUCH- où vous avez à trouver 1 indice. Rapprochez-vous de Sonia pour plus d’informations !" ,[]);
     })
     WA.room.onLeaveLayer('InfoRoom6').subscribe(closePopup)
+
+    WA.room.onEnterLayer('InfoQuizz').subscribe(() => {
+        currentPopup = WA.ui.openPopup("InfoQuizz","Bienvenue dans la salle -Votre avis nous intéresse !-. Vous avez normalement trouvé tous les indices. Félicitations. Nous vous invitons à prendre quelques minutes pour répondre à ce petit formulaire pour nous partager vos retours sur l’atelier et pourquoi pas vos envies pour les prochains. Merci, L’équipe Open Innovation." ,[]);
+    })
+    WA.room.onLeaveLayer('InfoQuizz').subscribe(closePopup)
+
+    WA.room.onEnterLayer('InfoAcceuil').subscribe(() => {
+        currentPopup = WA.ui.openPopup("InfoAcceuil","Bienvenu dans le miniverse dédié à notre atelier 3 sur l'Open Innovation en interne. si vous avez besoin d'aide n'hésitez pas à retourner dans le teams et nous envoyer un message." ,[]);
+    })
+    WA.room.onLeaveLayer('InfoAcceuil').subscribe(closePopup)
+
 
     WA.room.onEnterLayer('Stationetvous').subscribe(() => {
         WA.nav.openTab('https://stationtetvous.totalenergies.fr/fr');
