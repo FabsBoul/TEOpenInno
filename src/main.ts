@@ -42,7 +42,7 @@ WA.onInit().then(() => {
     })
     WA.room.onLeaveLayer('InfoRoom6').subscribe(closePopup)
 
-    WA.room.onEnterLayer('stationetvous').subscribe(() => {
+    WA.room.onEnterLayer('Stationetvous').subscribe(() => {
         WA.nav.openTab('https://stationtetvous.totalenergies.fr/fr');
     })
 
