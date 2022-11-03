@@ -27,7 +27,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('InfoRoom3').subscribe(closePopup)
 
     WA.room.onEnterLayer('InfoRoom4').subscribe(() => {
-        currentPopup = WA.ui.openPopup("InfoRoom4","Bienvenue dans la salle -STATIONT&VOUS- où 2 indices sont à trouver. Rapprochez-vous de Marc et son chien Timon pour plus d’informations !" ,[]);
+        currentPopup = WA.ui.openPopup("InfoRoom4","Bienvenue dans la salle -STATIONT&VOUS- où 4 indices sont à trouver. Rapprochez-vous de Marc et son chien Timon pour plus d’informations !" ,[]);
         
     })
     WA.room.onLeaveLayer('InfoRoom4').subscribe(closePopup)
