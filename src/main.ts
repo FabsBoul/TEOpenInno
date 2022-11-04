@@ -12,12 +12,12 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     WA.room.onEnterLayer('InfoRoom1').subscribe(() => {
-        currentPopup = WA.ui.openPopup("InfoRoom1","Bienvenue dans la salle -Bootcamp- où 2 indices sont à trouver !  Rapprochez-vous de John et son chat pour plus d’informations !" ,[]);
+        currentPopup = WA.ui.openPopup("InfoRoom1","Bienvenue dans la salle -BOOTCAMP- où 2 indices sont à trouver !  Rapprochez-vous de John et son chat pour plus d’informations !" ,[]);
     })
     WA.room.onLeaveLayer('InfoRoom1').subscribe(closePopup)
 
     WA.room.onEnterLayer('InfoRoom2').subscribe(() => {
-        currentPopup = WA.ui.openPopup("InfoRoom2","Bienvenue dans la salle -Cinéma- où 4 indices sont à trouver ! Rapprochez-vous de Yann pour plus d’informations !" ,[]);
+        currentPopup = WA.ui.openPopup("InfoRoom2","Bienvenue dans la salle -CINEMA- où 4 indices sont à trouver ! Rapprochez-vous de Yann pour plus d’informations !" ,[]);
     })
     WA.room.onLeaveLayer('InfoRoom2').subscribe(closePopup)
 
@@ -43,7 +43,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('InfoRoom6').subscribe(closePopup)
 
     WA.room.onEnterLayer('InfoQuizz').subscribe(() => {
-        currentPopup = WA.ui.openPopup("InfoQuizz","Bienvenue dans la salle -Votre avis nous intéresse !-. Vous avez normalement trouvé tous les indices. Félicitations. Nous vous invitons à prendre quelques minutes pour répondre à ce petit formulaire pour nous partager vos retours sur l’atelier et pourquoi pas vos envies pour les prochains. Merci, L’équipe Open Innovation." ,[]);
+        currentPopup = WA.ui.openPopup("InfoQuizz","Bienvenue dans la salle -VOTRE AVIS NOUS INTERESSE!-. Vous avez normalement trouvé tous les indices. Félicitations. Nous vous invitons à prendre quelques minutes pour répondre à ce petit formulaire pour nous partager vos retours sur l’atelier et pourquoi pas vos envies pour les prochains. Merci, L’équipe Open Innovation." ,[]);
     })
     WA.room.onLeaveLayer('InfoQuizz').subscribe(closePopup)
 
