@@ -48,7 +48,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('InfoQuizz').subscribe(closePopup)
 
     WA.room.onEnterLayer('InfoAcceuil').subscribe(() => {
-        currentPopup = WA.ui.openPopup("InfoAcceuil","Bienvenu dans le miniverse dédié à notre atelier 3 sur l'Open Innovation en interne. Si vous avez besoin d'aide n'hésitez pas à retourner dans le teams et nous envoyer un message." ,[]);
+        currentPopup = WA.ui.openPopup("InfoAcceuil","Bienvenue dans le Clued'Inno!  Votre mission n'est pas de découvrir qui a tué Mlle Rose dans la bibliothèque avec le chandelier mais de découvrir un parcours et des indices sur les apports de l'Open Innovation en interne. Si vous avez besoin d’aide, n’hésitez pas à retourner dans le Teams et nous envoyer un message." ,[]);
     })
     WA.room.onLeaveLayer('InfoAcceuil').subscribe(closePopup)
 
