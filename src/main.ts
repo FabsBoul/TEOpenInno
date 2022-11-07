@@ -33,7 +33,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('InfoRoom4').subscribe(closePopup)
 
     WA.room.onEnterLayer('InfoRoom5').subscribe(() => {
-        currentPopup = WA.ui.openPopup("InfoRoom5","Ici, pas d’indice à trouver. Constituez une équipe, testez vos connaissances sur l’environnement.  Donnez le meilleur de vous-même dans ce jeu et repartez (peut-être) avec un des cadeaux. Seules les deux premières équipes gagnent: à vous de jouer!" ,[]);
+        currentPopup = WA.ui.openPopup("InfoRoom5","Ici, pas d’indice à trouver. Testez vos connaissances sur l’environnement (n’hésitez pas à vous entraider en zone jitsi).  Donnez le meilleur de vous-même dans ce jeu et repartez (peut-être) avec un des cadeaux !  Seuls les deux participants avec les meilleurs scores gagnent. A vous de jouer…" ,[]);
     })
     WA.room.onLeaveLayer('InfoRoom5').subscribe(closePopup)
 
