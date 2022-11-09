@@ -17,7 +17,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('InfoRoom1').subscribe(closePopup)
 
     WA.room.onEnterLayer('InfoRoom2').subscribe(() => {
-        currentPopup = WA.ui.openPopup("InfoRoom2","Bienvenue dans la salle -CINEMA- où 4 indices sont à trouver ! Rapprochez-vous de Yann pour plus d’informations !" ,[]);
+        currentPopup = WA.ui.openPopup("InfoRoom2","Bienvenue dans la salle “Cinéma” où 3 indices sont à trouver ! Rapprochez-vous de Yann pour plus d’informations ! " ,[]);
     })
     WA.room.onLeaveLayer('InfoRoom2').subscribe(closePopup)
 
@@ -57,6 +57,9 @@ WA.onInit().then(() => {
         WA.nav.openTab('https://stationtetvous.totalenergies.fr/fr');
     })
 
+    WA.room.onEnterLayer('keepintouch').subscribe(() => {
+        WA.nav.openTab('https://totalworkplace.sharepoint.com/sites/dinn-ms/SitePages/fr/Home.aspx');
+    })
     
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
