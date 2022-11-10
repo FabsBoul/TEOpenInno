@@ -2242,7 +2242,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"jitsi3"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -2542,7 +2542,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"Jitsi1"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -2574,7 +2574,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"Jitsi2"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -2606,7 +2606,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"JitsiAcc"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -2638,7 +2638,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"Jitsi6"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -2670,7 +2670,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"Jitsi4"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -2702,7 +2702,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"Jitsi5"
                         }, 
                         {
                          "name":"jitsiTrigger",
